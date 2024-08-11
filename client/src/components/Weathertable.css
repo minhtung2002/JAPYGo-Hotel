@@ -1,0 +1,42 @@
+/* src/components/WeatherTable.css */
+
+.weather-table-container {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.weather-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.weather-table th,
+.weather-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.weather-table th {
+    background-color: #f2f2f2;
+}
+
+
+.weather-table img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.weather-table td a {
+    color: #007bff;
+    text-decoration: underline;
+    /* Gạch chân liên kết */
+    transition: color 0.3s;
+}
